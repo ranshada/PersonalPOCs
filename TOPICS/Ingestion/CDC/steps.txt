@@ -1,0 +1,6 @@
+Step 1: Create a Postgres instance#
+
+gcloud sql instances create my-db \
+--database-version=POSTGRES_9_6 --cpu=1 \
+--memory=3840MiB --zone=us-central1-a \
+--root-password=admin

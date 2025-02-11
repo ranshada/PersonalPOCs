@@ -1,0 +1,25 @@
+Create a Pub/Sub schema that is compatible with the table schema.
+gcloud pubsub schemas create bitcoin_transactions_stream \
+       --type=AVRO \
+        --definition='{"type":"record","name":"BitcoinTransaction","fields":[{"name":"hash","type":"string"},{"name":"size","type":"int"},{"name":"block_hash","type":"string"},{"name":"block_number","type":"int"},{"name":"block_timestamp","type":{"logicalType": "timestamp-millis", "type": "long"}}]}'
+
+
+
+Create the bitcoin_transactions_stream topic associated with the previous schema and a dead_letter_topic topic to store any undeliverable messages.
+gcloud pubsub topics create bitcoin_transactions_stream \
+        --message-encoding=JSON \
+        --schema=bitcoin_transactions_stream
+
+
+
+
+Add permissions to bigquery in gcloud iam with below command
+gcloud projects add-iam-policy-binding soy-framing-450222-n6 --member="serviceAccount:service-$(gcloud projects describe soy-framing-450222-n6 --format="value(projectNumber)")@gcp-sa-pubsub.iam.gserviceaccount.com" --role=roles/bigquery.admin
+gcloud pubsub topics create dead_letter_topic
+
+
+
+gcloud pubsub subscriptions create bigquery-sub --topic=bitcoin_transactions_stream \
+--bigquery-table=soy-framing-450222-n6.ingestion.bitcoin_transactions_stream \
+--use-topic-schema \
+--dead-letter-topic=dead_letter_topic

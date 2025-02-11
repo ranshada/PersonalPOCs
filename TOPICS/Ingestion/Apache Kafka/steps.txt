@@ -1,0 +1,20 @@
+# download Apache Kafka
+wget https://archive.apache.org/dist/kafka/3.4.0/kafka_2.12-3.4.0.tgz
+tar -xvzf kafka_2.12-3.4.0.tgz
+cd kafka_2.12-3.4.0
+nohup ./bin/zookeeper-server-start.sh config/zookeeper.properties > zookeeper.log &
+nohup ./bin/kafka-server-start.sh config/server.properties > kafka.log &
+# press ctrl C to exit
+
+
+netstat -tulpn | grep LISTEN
+
+
+/bin/kafka-topics.sh --create --topic websocket-events --bootstrap-server localhost:9092
+# Created topic websocket-events.
+
+
+wget -qO /usr/local/bin/websocat https://github.com/vi/websocat/releases/latest/download/websocat.x86_64-unknown-linux-musl
+chmod a+x /usr/local/bin/websocat
+websocat --version
+websocat -s 1234
