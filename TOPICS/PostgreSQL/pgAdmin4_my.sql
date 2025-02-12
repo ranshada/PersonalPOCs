@@ -111,10 +111,25 @@ insert into t_tags(tag) VALUES ('PEN'),('PENCIL');
 
 select * from t_tags;
 
+
 2025-02-11 14:54:12.342773
 
 INSERT INTO t_tags(tag) VALUES ('PEN')
 ON CONFLICT (tag) DO NOTHING;
 
+SELECT substring('PostgreSQL', 5, 4); -- Result: Post
+
 
 INSERT INTO t_tags(tag) VALUES ('PENCIL')
+ON CONFLICT (tag) DO UPDATE set tag='PENCIL_UPDATED' , update_date =now()
+
+INSERT INTO t_tags(tag) VALUES ('PENCIL')
+ON CONFLICT (tag) DO UPDATE set tag=EXCLUDED.tag || '1', update_date =now()
+
+
+select * from actors;
+
+select first_name || ' ' || last_name as "Full Name" 
+from actors -- returning first_name || last_name;
+
+select 2 * 6 as Multiply;

@@ -39,3 +39,5 @@ CREATE TABLE movies (
     release_date DATE
 
 );
+
+
