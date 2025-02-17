@@ -14,7 +14,8 @@ netstat -tulpn | grep LISTEN
 # Created topic websocket-events.
 
 
-wget -qO /usr/local/bin/websocat https://github.com/vi/websocat/releases/latest/download/websocat.x86_64-unknown-linux-musl
+w
+latest/download/websocat.x86_64-unknown-linux-musl
 chmod a+x /usr/local/bin/websocat
 websocat --version
 websocat -s 1234
