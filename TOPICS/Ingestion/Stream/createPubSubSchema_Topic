@@ -1,7 +1,7 @@
 Create a Pub/Sub schema that is compatible with the table schema.
 gcloud pubsub schemas create bitcoin_transactions_stream \
        --type=AVRO \
-        --definition='{"type":"record","name":"BitcoinTransaction","fields":[{"name":"hash","type":"string"},{"name":"size","type":"int"},{"name":"block_hash","type":"string"},{"name":"block_number","type":"int"},{"name":"block_timestamp","type":{"logicalType": "timestamp-millis", "type": "long"}}]}'
+        --definition='{"type":"record","name":"BitcoinTransaction","fields":[{"name":"hash","type":"string"},{"name":"size","type":"int"},{"name":"block_hash","type":"string"},{"name":"block_number","type":"int"},{"name":"","type":{"logicalType": "timestamp-millis", "type": "long"}}]}'
 
 
 
