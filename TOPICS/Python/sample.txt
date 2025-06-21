@@ -1,0 +1,97 @@
+this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+...
+t his is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, awwwnd there are multiple spaces in places.
+enjoy learning python!
+...this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+...this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+...this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+...this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+...this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+...this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+...this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+...this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+...this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+...this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!
+this is a sample text file.
+it contains random content with spaces at the start and end.
+some words are in uppercase, and there are multiple spaces in places.
+enjoy learning python!

@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: my_package
+Version: 0.1.0
+Summary: A sample Python package
+Author: Ranjith Shada
+Requires-Dist: langchain
+Requires-Dist: numpy
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary

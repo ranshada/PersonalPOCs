@@ -1,0 +1,25 @@
+{
+    "name": "Upma",
+    "prep_time": 20,
+    "ingredients": ["rava", "onion", "mustard"],
+    "steps": {
+        "step1": "Roast rava",
+        "step2": "Sauté onion",
+        "step3": "Add water and rava"
+    }
+}{
+    "name": "Basmati Rice",
+    "prep_time": "10 minutes",
+    "ingredients": [
+        "Basmati rice",
+        "2 cups water",
+        "a pinch of salt",
+        "oil"
+    ],
+    "steps": [
+        "boil water",
+        "add rice",
+        "simmer",
+        "serve"
+    ]
+}
