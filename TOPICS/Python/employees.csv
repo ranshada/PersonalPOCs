@@ -1,4 +1,5 @@
-ID,NAME,DEPARTMENT,SALARY
-1,John Smith,Engineering,80000
-2,Sara Lee,Marketing,75000
-3,David Chen,Sales,68000
+ID|NAME|DEPARTMENT|SALARY
+1|John Smith|Engineering|68000
+2|Sara Lee|Marketing|68000
+3|David Chen|Sales|68000
+|None|N/A|
